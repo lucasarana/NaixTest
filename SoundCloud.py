@@ -1,16 +1,7 @@
 __author__ = 'lucas.arana'
+# -*- coding: utf-8 -*-
 
 import soundcloud
-from flask import Flask, request, session, g, redirect, url_for, abort, render_template, flash
-
-# -*- coding: utf-8 -*-
-import uuid
-import socket
-import os, sys
-import config
-import platform
-
-from subprocess import Popen, PIPE
 
 class SoundCloud():
     pass
