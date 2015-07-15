@@ -1,7 +1,6 @@
 __author__ = 'lucas.arana'
-
 # -*- coding: utf-8 -*-
-import uuid
+
 from threading import Lock
 
 class Environment(object):
