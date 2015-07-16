@@ -18,7 +18,7 @@ import tornado.httpclient
 import config
 from Environment import Environment
 
-from SoundCloud import SoundCloud
+from NaixPetitions import Petitions
 from NaixMonitor import NaixMonitor
 
 
@@ -28,7 +28,7 @@ class Handler(tornado.web.RequestHandler):
         Environment().reset()
 
         try:
-            responseBody = str(getattr(SoundCloud, func)(self))
+            responseBody = str(getattr(Petitions, func)(self))
         except:
             responseBody = str({'status':'error', 'msg':traceback.format_exc()})
 
