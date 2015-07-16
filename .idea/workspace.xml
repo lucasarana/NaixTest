@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52b0069a-5a50-48e3-af0d-56eb9a7ecf3d" name="Default" comment="Dejo solo el import de sound cloud">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SoundCloud.py" afterPath="$PROJECT_DIR$/SoundCloud.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebServer.py" afterPath="$PROJECT_DIR$/WebServer.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NaixTest.iws" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="Environment.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Environment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.2905983">
+              <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -381,14 +379,32 @@
       <option name="project" value="LOCAL" />
       <updated>1437050593244</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="No tengo idea que es esto">
+      <created>1437050610750</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1437050610750</updated>
+    </task>
+    <task id="LOCAL-00008" summary="SoundCloud no es nada ahora.">
+      <created>1437050644349</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1437050644349</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Modifico para que llame a NaixPetitions">
+      <created>1437050679004</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1437050679004</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1376" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1376" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962631" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24962631" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -449,7 +465,10 @@
     <MESSAGE value="Dejo solo el import de sound cloud" />
     <MESSAGE value="Agrego Clients (Va a contenter los ids y secrets de todos los servicios que utilicemos)" />
     <MESSAGE value="Agrego NaixPetitions, y tengo una prueba para solicitar una AT a soundcloud. &#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Agrego NaixPetitions, y tengo una prueba para solicitar una AT a soundcloud. &#10;" />
+    <MESSAGE value="No tengo idea que es esto" />
+    <MESSAGE value="SoundCloud no es nada ahora." />
+    <MESSAGE value="Modifico para que llame a NaixPetitions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modifico para que llame a NaixPetitions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -538,6 +557,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="21" selection-end-column="60" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -579,8 +599,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Environment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.2905983">
+          <caret line="10" column="34" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
           <folding />
         </state>
       </provider>
