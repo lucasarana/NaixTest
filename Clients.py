@@ -3,8 +3,10 @@ __author__ = 'lucas.arana'
 import soundcloud
 
 class Clients:
+    """Class containing all necessary information from the Clients"""
 
     def SoundCloudClient(self):
+        """Sound Clods detailed Client"""
 
         soundCloudClient = soundcloud.Client(
         client_id = 'efb4da00b3d22f63a53c8f0b9b96c553',

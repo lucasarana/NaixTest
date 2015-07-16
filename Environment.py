@@ -4,7 +4,7 @@ __author__ = 'lucas.arana'
 from threading import Lock
 
 class Environment(object):
-
+    """Class needed for the Monitor to work"""
     _instance = None
     _mutex = Lock()
 

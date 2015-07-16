@@ -22,7 +22,8 @@ from NaixPetitions import Petitions
 from NaixMonitor import NaixMonitor
 
 
-class Handler(tornado.web.RequestHandler):
+class WebServer(tornado.web.RequestHandler):
+    """Tornados Web Server to manage every request"""
 
     def get(self, func, *args, **kwargs):
         Environment().reset()
@@ -54,7 +55,7 @@ if __name__ == '__main__':
 
     app = tornado.web.Application([
         (r'/favicon.ico', tornado.web.ErrorHandler, dict(status_code=404)),
-        (r'/(.*)', Handler),
+        (r'/(.*)', WebServer),
     ])
 
     if '-s' in args:
