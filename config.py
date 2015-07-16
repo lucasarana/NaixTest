@@ -11,3 +11,8 @@ ssl_options = {
     'keyfile': '',
 }
 
+# User, pass, host and DB to connect
+db_params = {'user':'root',
+             'password':'naixwork',
+             'host':'127.0.0.1',
+             'database':'test'}
