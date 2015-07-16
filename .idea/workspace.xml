@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="52b0069a-5a50-48e3-af0d-56eb9a7ecf3d" name="Default" comment="Dejo solo el import de sound cloud" />
-    <list id="396f7bf1-0a66-433a-9297-aea2b588b4f7" name="New changelist" comment="">
+    <list default="true" id="52b0069a-5a50-48e3-af0d-56eb9a7ecf3d" name="Default" comment="Dejo solo el import de sound cloud">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="NaixTest.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -372,7 +370,7 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="52b0069a-5a50-48e3-af0d-56eb9a7ecf3d" name="Default" comment="" />
-      <changelist id="396f7bf1-0a66-433a-9297-aea2b588b4f7" name="New changelist" comment="" />
+      <changelist id="" name="New changelist" comment="" />
       <created>1436984507452</created>
       <option name="number" value="Default" />
       <updated>1436984507452</updated>
@@ -467,7 +465,13 @@
       <option name="project" value="LOCAL" />
       <updated>1437069844730</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="No se que es esto">
+      <created>1437069855304</created>
+      <option name="number" value="00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1437069855304</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -544,7 +548,8 @@
     <MESSAGE value="Subo comentarios y detalles." />
     <MESSAGE value="Creo single DB (encargada de conectarse con MYSQL)" />
     <MESSAGE value="Remuevo SoundCloud. Ya no tiene ningun uso" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remuevo SoundCloud. Ya no tiene ningun uso" />
+    <MESSAGE value="No se que es esto" />
+    <option name="LAST_COMMIT_MESSAGE" value="No se que es esto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
