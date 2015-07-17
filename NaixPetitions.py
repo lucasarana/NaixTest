@@ -20,7 +20,7 @@ class Petitions:
         soundCloudClient = client_object.SoundCloudClient()
         code = handler.get_argument('code')
         access_token = soundCloudClient.exchange_token(code)
-        DANaix.first_query()
+        DANaix.initiliaze_client(soundCloudClient.client_id, access_token.access_token)
         # render_text("Hi There, %s" % client.get('/me').username)
 
         return access_token.access_token
