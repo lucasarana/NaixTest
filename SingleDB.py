@@ -11,10 +11,8 @@ class SingleDB:
     @staticmethod
     def open_data_base():
         """Opens data base"""
-        cnx = mysql.connector.connect(**config.db_params)
-
         try:
-            cnx = mysql.connector.connect()
+            cnx = mysql.connector.connect(**config.db_params)
         except mysql.connector.Error as err:
           if err.errno == errorcode.ER_ACCESS_DENIED_ERROR:
             print("Something is wrong with your user name or password")
@@ -22,7 +20,5 @@ class SingleDB:
             print("Database does not exist")
           else:
             print(err)
-        else:
-          cnx.close()
 
         return cnx
