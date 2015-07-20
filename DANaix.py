@@ -18,7 +18,16 @@ class DANaix:
         sql = """INSERT INTO test
                  (client_id, access_token, start_date)
                  values (%s, %s, %s)
-                 """
+              """
         DANaix.cursor.execute(sql, (client_id, access_token, now))
         DANaix.cxn.commit()
-        DANaix.cxn.close()
+        # DANaix.cxn.close()
+
+    @staticmethod
+    def get_client_token(client_id):
+
+        sql = """SELECT access_token from test.test WHERE client_id ='efb4da00b3d22f63a53c8f0b9b96c553' ORDER BY start_date DESC limit 1"""
+        DANaix.cursor.execute(sql, client_id)
+        access_token = DANaix.cursor.fetchone()
+        # DANaix.cxn.close()
+        return access_token
