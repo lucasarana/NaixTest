@@ -6,11 +6,15 @@ import mysql.connector
 from mysql.connector import errorcode
 
 class SingleDB:
-    """Class to open, report or close the MYSQL connection"""
+    """
+    Class to open, report or close the MYSQL connection
+    """
 
     @staticmethod
     def open_data_base():
-        """Opens data base"""
+        """
+        Opens data base
+        """
         try:
             cnx = mysql.connector.connect(**config.db_params)
         except mysql.connector.Error as err:

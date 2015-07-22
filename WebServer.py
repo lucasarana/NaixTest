@@ -23,7 +23,9 @@ from NaixMonitor import NaixMonitor
 
 
 class WebServer(tornado.web.RequestHandler):
-    """Tornados Web Server to manage every request"""
+    """
+    Tornados Web Server to manage every request
+    """
 
     def get(self, func, *args, **kwargs):
         Environment().reset()
@@ -31,7 +33,7 @@ class WebServer(tornado.web.RequestHandler):
         try:
             responseBody = str(getattr(Petitions, func)(self))
         except:
-            responseBody = str({'status':'error', 'msg':traceback.format_exc()})
+            responseBody = str({'status': 'error', 'msg': traceback.format_exc()})
 
         self.write(responseBody)
         self.finish()

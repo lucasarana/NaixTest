@@ -4,16 +4,25 @@ __author__ = 'lucas.arana'
 from Environment import Environment
 
 class NaixMonitor:
-    """Monitor listening every second"""
+    """
+    Class for Monitor listening (once per sec)
+    """
     def __init__(self):
-        """If we need something initialized"""
+        """
+        Still No Use
+        """
         self.algo = 'ee'
 
     def main(self):
-        """Main (Reset does not do anything yet)"""
+        """
+        Main (Reset does not do anything yet)
+        """
         Environment().reset()
         self.dostuff()
 
     def dostuff(self):
-        print "haciendo listens"
+        """
+        Just checking if monitor is on
+        """
+        print "Doing Listens"
 
